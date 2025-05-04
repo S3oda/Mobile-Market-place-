@@ -1,45 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>App Store Template</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="sidebar">
-    <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-</div>
-
-<div class="main">
-    <header>
-        <div class="filters">
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
+    <head>
+        <meta charset="UTF-8">
+        <title>App Store</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="grid"></div>
+        <div class="pagination">
+            <buttom id="prevPage">Previous</buttom>
+            <button id="nextPage">Next</button>
         </div>
-    </header>
-
-    <div class="grid">
-        <%
-            for (int i = 0; i < 6; i++) {
-        %>
-        <div class="app-card"></div>
-        <%
-            }
-        %>
-    </div>
-
-    <button id="nextPage"></button>
-</div>
-
-<script src="script.js"></script>
-</body>
+        <script src="script.js"></script>
+    </body>
 </html>
+</DOCTYPE>
